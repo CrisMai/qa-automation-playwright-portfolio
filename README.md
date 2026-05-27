@@ -1,5 +1,7 @@
 # QA Automation Portfolio: Playwright + TypeScript
 
+![Playwright Tests](https://github.com/CrisMai/qa-automation-playwright-portfolio/actions/workflows/playwright.yml/badge.svg)
+
 This repository is a technical demonstration of an End-to-End (E2E) test automation framework built with **Playwright** and **TypeScript**.
 
 ## 🚀 Objective
