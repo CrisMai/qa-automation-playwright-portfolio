@@ -17,10 +17,13 @@ export class LoginPage {
     await this.page.goto('https://www.saucedemo.com/');
   }
 
-  // Método unificado para login
-  async performLogin(user: string, pass: string) {
+  async login(user: string, pass: string) {
     await this.usernameInput.fill(user);
     await this.passwordInput.fill(pass);
     await this.loginButton.click();
+  }
+
+  async performLogin(user: string, pass: string) {
+    await this.login(user, pass);
   }
 }
