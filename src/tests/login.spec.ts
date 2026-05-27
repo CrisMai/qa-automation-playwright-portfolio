@@ -23,3 +23,4 @@ test('should show error message for invalid credentials', async ({ page }) => {
   await expect(errorMessage).toBeVisible();
   await expect(errorMessage).toContainText('Username and password do not match');
 });
+
